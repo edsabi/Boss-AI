@@ -12,7 +12,7 @@ with open('file.txt','r') as f:
 app = Flask(__name__)
 
 # Giphy config
-GIPHY_API_KEY = "aGwHVk0ZYV3IZZTjB1JcgHmz7rNYAScp"
+GIPHY_API_KEY = ""
 GIPHY_ENDPOINT = "https://api.giphy.com/v1/gifs/random"
 
 # AI completion function
